@@ -1,35 +1,22 @@
 # Pulse Daily Summary Bot
 
-A Python automation bot that automatically generates a daily summary.
+A Python automation bot that fetches live weather and motivational quotes and creates a daily summary report.
 
 ## Features
 
-- Fetches live weather data
-- Fetches a motivational quote
-- Generates a formatted daily report
-- Runs automatically using GitHub Actions
+- Live weather updates
+- Daily motivational quotes
+- Automated report generation
+- GitHub Actions automation
 
-## Technologies Used
+## Technologies
 
 - Python
-- Requests Library
+- Requests
 - REST APIs
 - JSON
 - GitHub Actions
 
-## APIs Used
+## GitHub Repository
 
-- wttr.in (Weather API)
-- ZenQuotes API
-
-## How It Works
-
-1. Gets current weather information
-2. Gets a random motivational quote
-3. Creates a summary report
-4. Saves it as `daily_summary.txt`
-5. GitHub Actions runs the bot automatically
-
-## Author
-
-Hisana T M
+https://github.com/hisana1098-spec/pulse-bot
